@@ -17,17 +17,18 @@ window = turtle.Screen()
 window.bgcolor("black")
 window.setup(width=600, height=600, startx=0, starty=0)
 
-colors = ("red", "blue", "green", "yellow", "orange")
+colors = ("red", "green", "orange", "red", "blue", "green")
 
 myTurtle = turtle.Turtle()
 myTurtle.shape("turtle")
 myTurtle.speed(0)
 myTurtle.width(1)
 
-sides = 5
+sides = 10
 angle = 360 / sides
 
-for i in range(360):
+
+for i in range(300):
     if i == 100:
         myTurtle.width(2)
     if i == 200:
@@ -36,6 +37,6 @@ for i in range(360):
     myTurtle.forward(i)
     myTurtle.right(angle + 1)
 
-myTurtle.hideturtle()
+myTurtle.forward(50)
 
 turtle.done()

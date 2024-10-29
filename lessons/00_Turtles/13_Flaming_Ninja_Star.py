@@ -13,7 +13,7 @@ def getRandomColor():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
 
 
-colors = ["red", "blue", "green", "yellow", "orange"]
+colors = ["red", "red", "blue", "red", "red"]
 
 
 def getNextColor(i):
@@ -40,17 +40,17 @@ for i in range(25):
    
     t.begin_fill()
 
-    t.forward(64) 
+    t.forward(70) 
 
-    t.left(40) 
-
-    t.forward(flameSize) 
-
-    t.right(170) 
+    t.left(50) 
 
     t.forward(flameSize) 
 
-    t.right(62) 
+    t.right(120) 
+
+    t.forward(flameSize) 
+
+    t.right(70) 
 
     t.forward(baseSize) 
 

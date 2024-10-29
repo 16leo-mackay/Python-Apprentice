@@ -7,7 +7,7 @@ in 14_FLaming_Ninja_Star.py, but use what you've learned about loops
 
 ... # Copy code to make a turtle and set up the window
 
-t = ... # Create a turtle named t
+t = tina = turtle.Turtle() # Create a turtle named t
 
 
 
@@ -24,8 +24,8 @@ def make_a_shape(t):
 # The second ... in the for loop should be the number of shapes you want to make, 
 # for example 100, or it could use islice(), cycle(), or a list of numbers.
 
-num_shapes = ...
+num_shapes =60
 
-for i in range(...):
-    make_a_shape(t)
+for i in range(50):
+    make_a_shape(turtle)
     t.right(360/num_shapes)
