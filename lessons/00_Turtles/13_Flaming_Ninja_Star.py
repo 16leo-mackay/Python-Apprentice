@@ -42,20 +42,20 @@ for i in range(25):
 
     t.forward(70) 
 
-    t.left(50) 
+    t.left(20) 
 
     t.forward(flameSize) 
 
-    t.right(120) 
+    t.right(150) 
 
     t.forward(flameSize) 
 
-    t.right(70) 
+    t.right(40) 
 
     t.forward(baseSize) 
 
     t.end_fill()
 
-t.hideturtle() 
+   
 
 turtle.done() 
